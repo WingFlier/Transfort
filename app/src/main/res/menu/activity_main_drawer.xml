@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_my_orders"
+            android:checked="false"
+            android:icon="@drawable/ic_my_orders"
+            android:title="@string/my_orders" />
+
+        <item
+            android:id="@+id/item_querys"
+            android:checked="false"
+            android:title="@string/querys" />
+
+        <item
+            android:id="@+id/item_preview"
+            android:checked="false"
+            android:title="@string/in_preview" />
+
+        <item
+            android:id="@+id/item_accepted"
+            android:checked="false"
+            android:title="@string/accepted" />
+
+        <item
+            android:id="@+id/item_find_orders"
+            android:checked="false"
+            android:icon="@drawable/ic_search_menu"
+            android:title="@string/find_orders" />
+
+        <item
+            android:id="@+id/item_profile"
+            android:checked="false"
+            android:icon="@drawable/ic_autopark"
+            android:title="@string/autopark" />
+
+        <item
+            android:id="@+id/item_documents"
+            android:checked="false"
+            android:icon="@drawable/ic_docs"
+            android:title="@string/documents" />
+
+        <item
+            android:id="@+id/item_questions"
+            android:checked="false"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/questions" />
+
+        <item
+            android:id="@+id/item_feedback"
+            android:checked="false"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/item_about"
+            android:checked="false"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about" />
+    </group>
+</menu>

@@ -1,0 +1,82 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="view_padding">16dp</dimen>
+    <dimen name="field_padding">8dp</dimen>
+
+    <dimen name="auth_gradient_height">100dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="text_size_medium">12sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="default_text_height">24dp</dimen>
+    <dimen name="forgot_password_margin_top">8dp</dimen>
+    <dimen name="skip_button_margin_top">16dp</dimen>
+    <dimen name="skip_button_margin_right">16dp</dimen>
+    <dimen name="scrollview_margin_top">40dp</dimen>
+    <dimen name="scrollview_margin_top_inverse">-40dp</dimen>
+    <dimen name="inputs_block_margin_left_right">16dp</dimen>
+    <dimen name="inputs_block_margin_top">300dp</dimen>
+    <dimen name="login_line_margin_top">15dp</dimen>
+    <dimen name="login_line_height">2dp</dimen>
+    <dimen name="login_logo_width">176dp</dimen>
+    <dimen name="login_logo_height">56dp</dimen>
+    <dimen name="login_logo_margin_top">8dp</dimen>
+    <dimen name="login_logo_margin_left">8dp</dimen>
+    <dimen name="login_button_height">48dp</dimen>
+    <dimen name="signin_button_margin_top">15dp</dimen>
+    <dimen name="no_account_margin_left">84dp</dimen>
+    <dimen name="no_account_margin_top">32dp</dimen>
+    <dimen name="check_in_margin_left">4dp</dimen>
+
+
+    <dimen name="registration_organization_margin_top">24dp</dimen>
+    <dimen name="text_size_normal_plus">15sp</dimen>
+    <dimen name="text_size_icon_9sp">9sp</dimen>
+    <dimen name="text_size_extra">18sp</dimen>
+    <dimen name="checkbox_content_margin_left_right">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="checkBox_width">24dp</dimen>
+    <dimen name="legal_address_margin_top">8dp</dimen>
+    <dimen name="text_size_medium_plus">14sp</dimen>
+    <dimen name="text_size_small">11sp</dimen>
+    <dimen name="error_message_height">24dp</dimen>
+    <dimen name="checkbox_text_margin_left">7dp</dimen>
+    <dimen name="legal_address_margin_top_text">11dp</dimen>
+    <dimen name="error_agreement_margin_top">8dp</dimen>
+    <dimen name="edittext_padding">16dp</dimen>
+    <dimen name="hint_margin_right">32dp</dimen>
+    <dimen name="hint_margin_top">29dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="width_24">24dp</dimen>
+    <dimen name="spinner_hint_margin_top">12dp</dimen>
+    <dimen name="spinner_hint_margin_left">16dp</dimen>
+    <dimen name="spinner_hint_margin_left_more">32dp</dimen>
+
+    <dimen name="text_size_pre_icon">8sp</dimen>
+    <dimen name="spinner_item_height">@dimen/_48sdp</dimen>
+    <dimen name="text_lineSpacing_average">8sp</dimen>
+
+    <dimen name="text_lineSpacing_minimum">6sp</dimen>
+    <dimen name="text_lineSpacing_small">4sp</dimen>
+    <dimen name="text_lineSpacing_tiny">2sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="height_16">16dp</dimen>
+    <dimen name="height_24">24dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="text_size_icon">10sp</dimen>
+    <dimen name="text_lineSpacing_normal_plus">14sp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_185">185dp</dimen>
+
+</resources>

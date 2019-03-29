@@ -1,0 +1,743 @@
+<resources>
+    <string name="app_name">Трансфорт</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Ok">Ok</string>
+    <string name="Error">Ошибка</string>
+    <string name="Loading">Загрузка</string>
+    <string name="find">Найти</string>
+    <string name="send">Отправить</string>
+    <string name="clear">Очистить</string>
+    <string name="select">Выбрать</string>
+    <string name="auth_err">Ошибка авторизации</string>
+    <string name="recovery_err">Ошибка восстановления пароля</string>
+
+    <string name="ordering">Упорядочить</string>
+    <string name="by_date_placing">по дате размещения</string>
+    <string name="by_date_feeding">по дате подачи</string>
+    <string name="new_to_old">новые -> старые</string>
+    <string name="old_to_new">старые -> новые</string>
+    <string name="quick_notquick">срочные -> несрочные</string>
+    <string name="notquick_quick">несрочные -> срочные</string>
+    <string name="order_cancel">Отмена</string>
+
+    <string name="my_orders">Мои заказы</string>
+    <string name="querys">Запросы</string>
+    <string name="in_preview">На рассмотрении</string>
+    <string name="accepted">Принятые</string>
+    <string name="divider_above">DividerAbove</string>
+    <string name="divider_below">DividerBelow</string>
+
+    <string name="find_orders">Поиск заказов</string>
+    <string name="autopark">Автопарк</string>
+    <string name="questions">Частые вопросы</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="about">О приложении</string>
+    <string name="test_fio">Константин Константинопольский</string>
+    <string name="performer">Исполнитель</string>
+
+    <string name="outlined_text">Тест</string>
+    <string name="outlined_hint">Заголовок</string>
+
+    <string name="number">Номер</string>
+    <string name="executive_selected">Выбран исполнитель</string>
+    <string name="under_consideration">На рассмотрении</string>
+    <string name="be_in_progress">Выполняется</string>
+    <string name="done">Выполнен</string>
+    <string name="cargo">Грузовая</string>
+    <string name="passenger">Пассажирская</string>
+    <string name="special">Аренда спецтехники</string>
+    <string name="order_type">Тип перевозки</string>
+
+    <string name="auto_class">Класс авто"</string>
+    <string name="address">Адрес подачи</string>
+    <string name="date">Дата подачи</string>
+    <string name="begin">Начало</string>
+    <string name="findNOrders">Найденно %d заказов</string>
+    <string name="showOrders">Показать</string>
+    <string name="num">№</string>
+
+    <string name="app_name_rus">трансфорт</string>
+
+    <string name="dadata_api">af399c90c802189b0297bce99952da444f4fbc5d</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="restore_password_detail">В течении нескольких минут на указанный адрес электронной почты придет письмо с кодом для восстановления пароля.</string>
+    <string name="she_not_set">Не назначена</string>
+    <string name="zero_zero">0.0</string>
+    <string name="zero_zero_rub">0.0 руб.</string>
+    <string name="he_not_set">Не назначен</string>
+    <string name="price_not_set">Цена не назначена</string>
+    <string name="supplier_not_set">Исполнитель не назначен</string>
+    <string name="order_not_set">Номер заказа не назначен</string>
+
+    <string name="car_price_by_hour">Цена за час:</string>
+    <string name="car_price_by_km">Цена за км:</string>
+
+    <string name="not_found_error_message">Not found</string>
+    <string name="network_error_message">Network error</string>
+    <string name="remote_error_message">Remote server error</string>
+    <string name="unknown_error_message">Unknown error</string>
+
+    <string name="inn">ИНН:</string>
+    <string name="back">Назад</string>
+    <string name="confirm_offer">Подтвердить</string>
+    <string name="confirm_state">Подтверждено</string>
+    <string name="order_num">Заказ №</string>
+    <string name="order_from">от</string>
+    <string name="cancel_state">Отменено</string>
+    <string name="demo">Ведутся работы</string>
+    <string name="choose_carriage">Выберите "Тип перевозки"</string>
+    <string name="not_set">Не указан</string>
+    <string name="not_set2">Не указана</string>
+    <string name="not_set3">Не указано</string>
+    <string name="input_code">Введите код</string>
+    <string name="input_new_password">Введите новый пароль (латинские буквы и цифры)</string>
+    <string name="input_new_password_hint">Новый пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="code_fail">Введите код</string>
+    <string name="success_change_password">Пароль успешно изменен</string>
+
+    <string name="psw_cmp_fail">Пароли не совпадают</string>
+
+    <string name="restore_password">Восстановление пароля</string>
+    <!--<string name="byOrder">По Заявке</string>-->
+    <string name="byOrder">По Заказу</string>
+
+    <string name="dateBegin">Дата начала работ</string>
+    <string name="dateEnd">Дата окончания работ</string>
+    <string name="workTime">Время работы</string>
+    <string name="planDistance">Пробег техники, км.</string>
+    <string name="planDistanceHint">Пробег техники</string>
+    <string name="workTimeMehanizm">Время использования\nоборудования</string>
+    <string name="workTimeMehanizmHint">Время использования</string>
+    <string name="byFact">По Факту</string>
+
+    <string name="test_email">test@email.ru</string>
+    <string name="test_phone">+7 (499) 778 - 89 - 96</string>
+    <string name="organizations">Организации</string>
+    <string name="edit_personal_data">Редактировать личные данные</string>
+    <string name="IP">Индивидуальный Предприниматель</string>
+
+    <string name="notification">Уведомления</string>
+    <string name="settings">Настройки аккаунта</string>
+    <string name="question">Часто задаваемые вопросы</string>
+    <string name="chat">Обратная связь</string>
+
+    <string name="exec_time_in_over">Нельзя выставить время аренды больше 30 суток!</string>
+    <string name="exec_time_meh_over">Нельзя выставить время использования оборудования больше 30 суток!</string>
+
+    <string name="FIO">ФИО</string>
+    <string name="POS">Должность</string>
+    <string name="nullstr">(null)</string>
+    <string name="token_update">PUSH токен обновлен</string>
+    <string name="zero">0</string>
+    <string name="zero_rub">0 руб</string>
+    <string name="test_user">KonstantinovA</string>
+
+    <string name="test_pass">123</string>
+
+    <!--заказчик-->
+    <string name="customer_iam">ShatalinD</string>
+
+    <!--исполнитель-->
+    <string name="supplier_iam">DShatalin</string>
+
+
+    <string name="Km">KMaksimovich</string>
+    <string name="mK">MaksimovichK</string>
+    <string name="mKKmP">1234</string>
+
+    <string name="dudina_u">DudinaO</string>
+    <string name="dudina_o">ODudina</string>
+    <string name="dudina_p">1</string>
+
+    <string name="custom_work_title">Работа по заказу</string>
+    <string name="rent_time_not_set">Не заданно</string>
+    <string name="ex_user_1">Chapaev</string>
+    <string name="ex_pass_1">123</string>
+    <string name="ex_user_2">DavidB</string>
+    <string name="ex_pass_2">123</string>
+
+    <string name="truck">Грузовик</string>
+    <string name="gradient">Градиент</string>
+    <string name="skip">Пропустить</string>
+    <string name="login"><font size="14">Логин</font></string>
+    <string name="password_14"><font size="14">Пароль</font></string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="logo_title">Трансфорт</string>
+    <string name="enter_text">Войти</string>
+    <string name="no_account">Нет аккаунта.</string>
+    <string name="check_in">Зарегистрироваться</string>
+
+    <string name="check_user_name">Введите Имя</string>
+    <string name="check_user_email">Введите email(Логин)</string>
+
+    <string name="input_file_name">Введите Имя фала</string>
+    <string name="update_user_success">Данные Пользователя успешно обновлены</string>
+    <string name="check_inputs">Введите данные</string>
+    <string name="check_login">Введите логин</string>
+    <string name="check_password">Введите пароль</string>
+    <string name="offer_confirm">Исполнитель выбран</string>
+    <string name="offer_confirm_fail">Ошибка выбора исполнителя</string>
+    <string name="error_code">Код ошибки:</string>
+    <string name="version_check_fail">Версия приложения не поддерживается. Обновите приложение из google play</string>
+
+    <string name="tariff">Тариф:</string>
+    <string name="find_ts">Поиск ТС</string>
+
+    <string name="my_orders_caps">МОИ ЗАКАЗЫ</string>
+    <string name="my_orders_normal">Мои заказы</string>
+    <string name="profile">Профиль</string>
+    <string name="from">с</string>
+    <string name="from_date">от</string>
+    <string name="to">до</string>
+
+    <string name="demo_mode">Демо режим</string>
+
+    <string name="vehicle_lease_variant">Вариант аренды ТС</string>
+    <string name="by_time">по часам</string>
+    <string name="error_vehicle_lease">Выберите вариант аренды ТС</string>
+    <string name="error_capacity">Выберите класс грузоподъемности</string>
+    <string name="filling_date">Дата подачи</string>
+    <string name="error_filling_date">Выберите дату подачи</string>
+    <string name="error_classificator">Выберите классификатор</string>
+    <string name="error_carriage">Выберите тип перевозки</string>
+    <string name="error_carriage2">Выберите тип кузова</string>
+    <string name="error_model">Выберите модель</string>
+
+    <string name="region_descr">Регион обслуживания:</string>
+    <string name="region">Регион подачи</string>
+    <string name="error_region">Введите регион</string>
+    <string name="search_button">Найти</string>
+    <string name="search_vehicle">Поиск ТС</string>
+
+    <!--<string name="search_orders">Поиск заявок</string>-->
+    <string name="search_orders">Поиск заказов</string>
+
+    <string name="supplier">Исполнитель:</string>
+    <string name="supplier_hint">Исполнитель</string>
+    <string name="customer_hint">Заказчик</string>
+    <string name="supplier_id">Идентификатор исполнителя:</string>
+
+    <string name="byVersionSupplier">По версии исполнителя</string>
+    <string name="byVersionCustomer">По версии заказчика</string>
+    <string name="supplierNotComplete">Исполнитель еще не заявил об окончании работ</string>
+    <string name="customerNotComplete">Заказчик еще не принял окончание работ</string>
+    <string name="documents">Документы</string>
+
+    <string name="exec_notification_title">Уведомить об окончании работ</string>
+    <string name="exec_notification_line2_title">по заказу №</string>
+    <string name="exec_title_from">от</string>
+    <string name="exec_customer_confirm_title">Подтверждение выполнения перевозки</string>
+    <string name="exec_customer_cancel_title">Отказ подтверждения перевозки</string>
+    <string name="exec_rating">Оценка перевозки</string>
+
+    <!--Идентификатор-->
+    <string name="supplier_id_hint">ID Компании</string>
+
+    <string name="phone_num_supplier_title">Телефон</string>
+    <string name="email_supplier_title">Email</string>
+    <string name="car">Автомобиль:</string>
+    <string name="car_hint">Автомобиль</string>
+
+    <string name="price_title">Стоимость заказа:</string>
+
+    <string name="min">минут</string>
+    <string name="end_date_fail">Минимальное время использования 1 час</string>
+
+    <string name="check_dates">Проверьте даты</string>
+    <string-array name="type_carriage_array">
+        <item>Грузовые перевозки</item>
+        <item>Пассажирские перевозки</item>
+        <item>Работа спец. техники</item>
+    </string-array>
+
+    <string name="hint_select">Выберите значение</string>
+    <string name="phone_format">+7 ([000]) [000] [00] [00]</string>
+    <string name="passengers">Количество пассажиров</string>
+    <string name="type_of_cargo">Тип груза</string>
+    <string name="cargo_weight">Тоннаж</string>
+    <string name="cargo_weight_hint">Например 0.9</string>
+    <string name="set">Установить</string>
+    <string name="cancel">Отмена</string>
+    <string name="cancel_done">Отменить</string>
+
+    <string name="closeOrder">Уведомить заказчика о завершении работы</string>
+    <string name="applyOrder">Подтвердить</string>
+    <string name="apply">Применить</string>
+    <string name="rejectOrder">Отказать</string>
+    <string name="comment_hint">Причина снижения оценки</string>
+    <string name="close">Назад</string>
+    <string name="set_date">Дата</string>
+    <string name="set_time">Время</string>
+    <string name="closeclose">Закрыть</string>
+    <string name="manual_input_regnum">Ввод гос. номера вручную:</string>
+
+    <string-array name="type_carriage_id_array">
+        <item>C</item>
+        <item>P</item>
+        <item>S</item>
+    </string-array>
+
+    <string-array name="type_carriage_2_array">
+        <item>Открытый</item>
+        <item>Закрытый</item>
+    </string-array>
+    <string-array name="type_carriage_2_id_array">
+        <item>О</item>
+        <item>С</item>
+    </string-array>
+
+    <string-array name="type_type_owenership_id_array">
+        <item>ООО</item>
+        <item>ЗАО</item>
+        <item>ОАО</item>
+        <item>ИП</item>
+        <item>АО</item>
+        <item>УП</item>
+    </string-array>
+    <string-array name="type_type_owenership_array">
+        <item>Закрытое Акционерное Общество</item>
+        <item>Общество с Ограниченной Ответственностью</item>
+        <item>Открытое Акционерное Общество</item>
+        <item>Индивидуальный Предприниматель</item>
+        <item>Акционерное Общество</item>
+        <item>Унитарное предприятие</item>
+    </string-array>
+    <string-array name="type_type_owenership_similar_array">
+        <item>ООО</item>
+        <item>ЗАО</item>
+        <item>ОАО</item>
+        <item>ИП</item>
+        <item>АО</item>
+        <item>УП</item>
+    </string-array>
+
+    <string-array name="status_array">
+        <item>Выполнен</item>
+        <item>Создан</item>
+        <item>Выбран исполнитель</item>
+        <item>Отменен</item>
+        <item>Водитель прибыл</item>
+        <item>Водитель в пути</item>
+        <item>Не принят заказчиком</item>
+        <item>Принят заказчиком</item>
+    </string-array>
+
+    <string-array name="status_code_array">
+        <item>RD</item>
+        <item>NW</item>
+        <item>CC</item>
+        <item>CN</item>
+        <item>DP</item>
+        <item>DW</item>
+        <item>NO</item>
+        <item>OK</item>
+    </string-array>
+
+
+    <string name="hour"> часа</string>
+    <string name="c_order_type">Грузовые</string>
+    <string name="p_order_type">Пассажирские</string>
+    <string name="s_order_type">Спец техника</string>
+
+    <string name="model_info">Модель:</string>
+    <string name="vehicle_capacity">Грузоподъемность:</string>
+    <string name="pass_capacity">Пассажироемкость:</string>
+    <string name="year_of_issue">Год выпуска:</string>
+    <string name="reg_num_title">Госномер:</string>
+    <string name="reg_num_hint">Госномер</string>
+    <string name="error_reg_num">Введите Регномер</string>
+    <string name="reg_num">Госномер</string>
+    <string name="optional_equipment">Допоборудование:</string>
+    <string name="add_hint">Дополнительное оборудование</string>
+    <string name="describe_hint">Описание</string>
+    <string name="min_hours">Минимальное количество часов работы:</string>
+    <string name="rating">Рейтинг:</string>
+    <string name="tariff_by_hour">Тариф за час</string>
+    <string name="tariff_by_km">Тариф за км</string>
+
+
+    <string name="price_done">Стоимость полная:</string>
+    <string name="rub">руб.</string>
+    <string name="blank">" "</string>
+    <string name="pending">в ожидании</string>
+    <string name="date_create_colon">Дата создания заказа</string>
+    <string name="time_usage_colon">Время использования</string>
+    <string name="type_carriage_colon">Тип перевозки</string>
+    <string name="filter">Фильтр</string>
+
+    <!--<string name="status">Статус заявки</string>-->
+    <string name="status">Статус заказа</string>
+
+    <string name="sort">Сортировать</string>
+    <string name="add">Добавить</string>
+
+    <string name="add_docs">Добавить дополнительные документы</string>
+    <string name="classificator">Классификатор ТС</string>
+    <string name="search_result_ts">Результаты поиска ТС</string>
+    <string name="search_result_order">Результаты поиска заказов</string>
+    <string name="order_by">Заказать</string>
+    <string name="detail">Подробнее</string>
+    <string name="vehicleid_null">Нехватает данных. vehicleId = null</string>
+    <string name="detail2">Детали</string>
+    <string name="by_km">за км</string>
+    <string name="rub_by_km">руб/км</string>
+    <string name="rub_by_hour">руб/час</string>
+    <string name="by_hour">за час</string>
+    <string name="price_by_km">0 руб/км</string>
+    <string name="price_by_hour">0 руб/час</string>
+    <string name="with_nds">с НДС</string>
+    <string name="without_nds">без НДС</string>
+    <string name="begin_brace">(</string>
+    <string name="end_brace">)</string>
+    <string name="organization_vehicle_info">Просмотр ТС</string>
+    <string name="organization_vehicle_edit">Редактировать ТС</string>
+    <string name="organization_vehicle_new">Добавить ТС</string>
+
+    <string name="price_title_hint">Стоимость заказа</string>
+    <string name="performed">Выполняются</string>
+    <string name="on_confirmation">На подтверждении</string>
+    <string name="save">Сохранить</string>
+    <string name="find_order">Поиск</string>
+
+    <!--<string name="new_order">Новая заявка</string>-->
+    <string name="new_order">Новый заказ</string>
+
+    <string name="customer_not_set">Исполнитель не назначен</string>
+    <string name="set_order_num">Заказ №</string>
+    <string name="set_order_num_new_order">Новый заказ</string>
+
+    <string name="set_order">Заказ </string>
+    <string name="set_order_create_success"> успешно создан!</string>
+    <string name="set_order_update_success"> успешно обновлен!</string>
+
+    <string name="param">Параметры авто:</string>
+    <string name="carriage">Тип перевозки</string>
+    <string name="star">*</string>
+    <string name="carriage2">Тип кузова</string>
+    <string name="vehicle">Классификатор</string>
+    <string name="ts">ТС</string>
+    <string name="carrier_department">Подразделение перевозчика</string>
+    <string name="capacity">Класс грузоподъемности</string>
+    <string name="model_offer">Марка/Модель:</string>
+    <string name="model">Модель</string>
+    <string name="vehicle_ts">Модель ТС</string>
+    <string name="ts_not_set">Модель ТС не выбранна</string>
+    <string name="department_not_set">Подразделение не выбранно</string>
+    <string name="proce_done">Cтоимость полная:</string>
+    <string name="price">Стоимость</string>
+    <string name="price_with_nds">Стоимость c НДС</string>
+    <string name="price_without_nds">Стоимость без НДС</string>
+    <string name="choose_you_price">Указать свою цену</string>
+    <string name="exec_time_in">Время аренды</string>
+    <string name="exec_time_in_hint">Время аренды</string>
+
+    <!--<string name="time_in">Время работы по заявке:</string>-->
+    <string name="time_in">Время работы по заказу:</string>
+
+    <!--<string name="time_in_hint">Время работы по заявке</string>-->
+    <string name="time_in_hint">Время работы по заказу</string>
+
+    <string name="exec_time_in_fail">Время аренды не заданно</string>
+    <string name="exec_time_meh_fail">Время использования оборудования не заданно</string>
+    <string name="exec_milliage_fail">Пробег техники не задан</string>
+    <string name="reason">Причина отмены</string>
+    <string name="reason_fail">Выберите причину снижения оценки</string>
+    <string name="date_time">Дата/время</string>
+    <string name="date_selected">Дата подачи с</string>
+
+    <!--<string name="order_time">Время работы по заявке:</string>-->
+    <string name="order_time">Время работы по заказу:</string>
+
+    <string name="order_dt">Дата/время подачи</string>
+    <string name="order_dt_end">Дата/время окончания</string>
+
+    <string name="customerRating">Оценка выполненных работ:</string>
+    <string name="exec_customer_state_no">Заказчик не согласен с выполненными работами</string>
+    <string name="exec_work_time">Время работы:</string>
+    <string name="exec_mileage">Пробег:</string>
+    <string name="exec_equipment_time">Время работы оборудования:</string>
+    <string name="exec_comment">Комментарий:</string>
+    <string name="exec_km">км.</string>
+
+    <string name="address_route">Адрес и маршрут:</string>
+    <string name="address_input">Адрес подачи</string>
+    <string name="route_input">Маршрут</string>
+    <string name="contacts">Контакты:</string>
+    <string name="contact_input">Контактное лицо</string>
+    <string name="contact_offer">Контактный номер исполнителя:</string>
+    <string name="sms">СМС информирование</string>
+    <string name="phoneSupplier">Телефон Исполнителя</string>
+    <string name="emailSupplier">Email Исполнителя</string>
+    <string name="phone">Телефон:</string>
+    <string name="phone_number">Номер телефона:</string>
+    <string name="phone_manager">Телефон Менеджера:</string>
+    <string name="fio">ФИО:</string>
+    <string name="fio_manager">Контактное лицо:</string>
+    <string name="addition">Доп. параметры:</string>
+    <string name="comment_input">Комментарий</string>
+    <string name="add_params">Доп оборудование:</string>
+
+    <string name="order_canceled">Заказ уже отменен</string>
+    <string name="copy_order">Копирование</string>
+    <string name="edit_order">Редактирование</string>
+    <string name="create_order">Создание</string>
+    <string name="view_order">Просмотр</string>
+    <string name="add_offer">Откликнуться</string>
+    <string name="offer_add_success">Отклик отправлен</string>
+    <string name="add_offer_done">Отправить отклик</string>
+    <string name="email">Email:</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="copy">Копия</string>
+    <string name="remove">Удалить</string>
+
+    <plurals name="plurals_hours">
+        <item quantity="zero">%1$ часов</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d чс</item>
+    </plurals>
+
+    <plurals name="plurals_minutes">
+        <item quantity="zero">%1$ минут</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d мин</item>
+    </plurals>
+
+    <string name="shared_pref_user_id">sharedPrefUserId</string>
+    <string name="shared_pref_regnum">sharedPrefRegnum</string>
+    <string name="shared_pref_session_key">sharedPrefSessionKey</string>
+    <string name="shared_pref_order_type">sharedPrefOrderType</string>
+    <string name="shared_pref_order_id">sharedPrefOrderId</string>
+    <string name="shared_pref_user_department_id">sharedPrefUserDepartmentId</string>
+    <string name="shared_pref_email">sharedPrefEmail</string>
+    <string name="shared_pref_phone">sharedPrefPhone</string>
+    <string name="shared_pref_main_current_tab">sharedMainCurrentTab</string>
+    <string name="shared_pref_myorder_sort">sharedMainMyOrderSort</string>
+
+    <string name="token_has_send_to_server">Токен успешно отправлен на сервер!</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="shared_pref_searchform_carriage_pos">sharedPrefSearchFormCarriagePos</string>
+    <string name="shared_pref_auth">sharedPrefAuth</string>
+    <string name="shared_pref_searchform_vehicle">sharedPrefSearchFormVehicle</string>
+    <string name="shared_pref_searchform_date">sharedPrefSearchFormDate</string>
+    <string name="shared_pref_searchform_region">sharedPrefSearchFormRegion</string>
+    <string name="shared_pref_after_search">sharedPrefAfterSearch</string>
+    <string name="shared_pref_classificator">sharedPrefClassificator</string>
+    <string name="shared_pref_region">sharedPrefRegion</string>
+    <string name="shared_pref_sort_order_asc">sharedPrefSortOrderAsc</string>
+    <string name="shared_pref_user_status">sharedPrefTmpUserStatus</string>
+    <string name="percent">%</string>
+
+    <string name="search">Поиск заказа</string>
+
+    <!--<string name="input_order_num">Введите номер заявки</string>-->
+    <string name="input_order_num">Введите номер заказа</string>
+
+    <string name="shared_pref_carrier_company_name">sharedPrefCarrierCompanyName</string>
+    <string name="shared_pref_carrier_company_id">sharedPrefCarrierCompanyId</string>
+    <string name="shared_pref_offer_sort">sharedPrefOfferSort</string>
+
+
+    <string name="vehicle_id_not_set">Модель не установленна</string>
+    <string name="token_has_send">Push-токен отправлен успешно</string>
+    <string name="token_fail">Ошибка отправки Push-токена</string>
+
+    <string name="shared_pref_user_customer">sharedPrefUserCustomer</string>
+    <string name="shared_pref_now_selected">sharedPrefNowSelected</string>
+    <string name="shared_pref_find_orders_flg">sharedPrefFindOrdersFlg</string>
+    <string name="shared_pref_user_supplier">sharedPrefUserSupplier</string>
+    <string name="shared_pref_show_profile_buttons">sharedPrefShowProfileButtons</string>
+    <string name="shared_pref_recreate_main_activity">sharedPrefRecreateMainActivity</string>
+    <string name="shared_pref_search_response">sharedPrefSearchResponse</string>
+    <string name="shared_pref_search_response_store">sharedPrefSearchResponseStore</string>
+    <string name="shared_pref_locality_id">>sharedPrefLocalityId</string>
+    <string name="shared_pref_user_name">sharedPrefUserName</string>
+    <string name="shared_pref_demo">sharedPrefDemo</string>
+
+    <!--<string name="tab_order">Заявка</string>-->
+    <string name="tab_order">Заказ</string>
+
+    <string name="tab_history">История</string>
+    <string name="tab_offers">Отклики</string>
+    <string name="tab_offers_debug">Отклики\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="tab_exec">Исполнение</string>
+    <string name="delete_file_confirm">Удалить файл?</string>
+    <string name="models_not_found">Модели ТС не найдены</string>
+    <string name="company">Компания:</string>
+    <string name="company_id">ID Компании:</string>
+    <string name="fio_driver">ФИО водителя:</string>
+    <string name="execSupplier">Данные об исполнителе</string>
+
+    <string name="network_offline">Нет доступа к сети. Проверте подключение</string>
+    <string name="sub_company">Подразделение:</string>
+    <string name="comment">Комментарий:</string>
+    <string name="new_line">\n</string>
+    <string name="year_model">Год выпуска авто:</string>
+    <string name="year_model_hint">Год выпуска</string>
+    <string name="min_hint">Мин.кол.рабочих часов</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="date_done_colon">Дата выполнения</string>
+    <string name="organization_delete_success">Организация удалена</string>
+
+    <!--<string name="status_hint">Статус заявки</string>-->
+    <string name="status_hint">Статус заказа</string>
+
+    <string name="carriage_hint">Тип перевозки</string>
+    <string name="carriage2_hint">Тип кузова</string>
+    <string name="type_owenership_hint">Форма собственности</string>
+
+
+    <string name="type_owenership_error">Выберите форму собственности</string>
+    <string name="name_organization_error">Введите наименование организации</string>
+    <string name="inn_organization_error">Введите ИНН организации</string>
+    <string name="kpp_organization_error">Введите КПП организации</string>
+    <string name="legal_organization_error">Введите Юридический адрес организации</string>
+    <string name="fact_organization_error">Введите Фактический адрес организации</string>
+    <string name="company_success_added">Компания успешно добавлена</string>
+    <string name="company_success_edited">Компания успешно отредактированна</string>
+    <string name="organizations_cars">Транпортные средства</string>
+
+    <string name="region_hint">Регион</string>
+    <string name="vehicle_hint">Классификатор ТС</string>
+    <string name="department_hint">Подразделение перевозчика</string>
+    <string name="capacity_hint">Класс грузоподъемности</string>
+    <string name="model_hint">Модель</string>
+    <string name="model_supplier_hint">Марка/Модель</string>
+    <string name="address_hint">Город, улица, дом</string>
+    <string name="route_hint">например: по городу</string>
+    <string name="organizations_docs">Документы организации</string>
+    <string name="organizations_staff">Сотрудники организации</string>
+    <string name="organization_create">Создать организацию</string>
+    <string name="organization_save">Сохранить изменения</string>
+    <string name="manual_model_input">Ввести название модели вручную</string>
+
+    <string name="organization_edit">Редактирование организации</string>
+    <string name="organization_info">Информация об организации</string>
+    <string name="organization_new">Создание организации</string>
+    <string name="organization_vehicle_create">Создание ТС</string>
+
+    <string name="vehicle_delete_success">Транспортное средство удалено</string>
+    <string name="organization_inn">ИНН</string>
+    <string name="organization_name">Наименование организации</string>
+    <string name="organization_kpp">КПП</string>
+    <string name="organization_legal_address">Юридический адрес</string>
+    <string name="organization_coin_fact">Совпадает с фактическим</string>
+    <string name="organization_fact_address">Фактический адрес</string>
+    <string name="organization_type">Тип организации</string>
+    <string name="organization_customer">Заказчик</string>
+    <string name="organization_supplier">Исполнитель</string>
+    <string name="organization_tax">Форма налогообложения</string>
+    <string name="organization_phone">Телефон</string>
+    <string name="organization_with_nds">С НДС</string>
+    <string name="organization_without_nds">Без НДС</string>
+    <string name="organization_ts">Транспортные средства</string>
+    <string name="organization">Организация</string>
+
+    <string name="fail_organization_name">Не заполенно поле Организация</string>
+    <string name="fail_organization_inn">Не заполенно поле ИНН организации</string>
+    <string name="fail_organization_kpp">Не заполенно поле КПП организации</string>
+    <string name="fail_organization_legal_address">Не заполенно поле Юридический адрес организации</string>
+    <string name="fail_organization_fact_address">Не заполенно поле Фактический адрес организации</string>
+
+    <string name="fail_organization_carriage">Не заполенно поле Тип Перевозки</string>
+    <string name="fail_organization_vehicle">Не заполенно поле Классификатор ТС</string>
+    <string name="fail_organization_model">Не заполенно поле Модель</string>
+    <string name="fail_organization_region">Не заполенно поле Регион</string>
+    <string name="fail_organization_regnum">Не заполенно поле Госномер</string>
+
+    <string name="fail_organization_tariff_by_hour">Не заполенно поле Тариф за час</string>
+    <string name="fail_organization_tariff_by_km">Не заполенно поле Тариф за километр</string>
+
+    <string name="organization_basic_docs">Основные документы</string>
+    <string name="organization_advanced_docs">Дополнительные документы</string>
+
+    <string name="pick_image_intent_text">Выберите источник</string>
+    <string name="file_upload_success">Файл успешно загружен</string>
+    <string name="load_file_fail">Ошибка загрузки файла</string>
+
+    <string name="type_owenership">Форма собственности</string>
+    <string name="organization_email">Email</string>
+    <string name="create_organization">Создать</string>
+    <string name="TOKEN">AIzaSyBz9djtlAK6sF4Sobkg4eLqfUcFyRG1-BE</string>
+
+    <string name="next">Продолжить</string>
+
+    <string name="recal_pass">Вы вспомнили свой пароль?</string>
+    <string name="recal_auth">Авторизация</string>
+    <string name="reg_username">Имя</string>
+    <string name="reg_username_hint">Введите имя пользователя</string>
+    <string name="reg_email">Email (Логин)</string>
+    <string name="input_email">Введите Email</string>
+    <string name="reg_email_hint">Ваш Email адрес</string>
+    <string name="reg_pass">Пароль</string>
+    <string name="reg_pass_hint">Введите пароль</string>
+    <string name="reg_repeat_pass">Повторите пароль</string>
+    <string name="reg_repeat_pass_hint">Введите пароль повторно</string>
+    <string name="reg_phone">Телефон</string>
+    <string name="reg_phone_hint">+7 (___) ___ - __ - __ </string>
+    <string name="reg_pers_data">Я согласен на обработку перс. данных</string>
+    <string name="reg_info_data">Я согласен на получение инфо. рассылки</string>
+    <string name="reg_org_hint">Зарегистрировать организацию</string>
+
+    <string name="reg_title">Регистрация</string>
+    <string name="reg_registration">Зарегистрироваться</string>
+    <string name="reg_cancel">Отменить</string>
+
+    <string name="reg_fail_name">Введите имя пользователя</string>
+    <string name="reg_fail_email">Введите Email(Логин)</string>
+    <string name="reg_fail_phone">Введите телефон</string>
+    <string name="reg_fail_pass">Введите пароль</string>
+    <string name="reg_fail_pass_rep">Введите повтор пароля</string>
+    <string name="reg_fail_pass_not_match">Пароли не совпадают</string>
+    <string name="reg_fail_pers_data">Требуется согласие на обработку персональных данных</string>
+
+    <string name="reg_error_fetch_data">Ошибка получения данных</string>
+    <string name="file_delete_success">Файл успешно удален</string>
+    <string name="file_not_found">Файл не найден</string>
+
+    <string name="reg_user_success">Пользователь успешно добавлен</string>
+    <string name="reg_user_fail">Данный Email (Логин) уже используется, пожалуйста, введите другой</string>
+    <string name="access_granted">Доступ предоставлен</string>
+    <string name="access_not_granted">Доступ НЕ предоставлен. Вы не сможете обновлять и загружать документы.</string>
+    <string name="question_delete_organization">Удалить организацию?</string>
+    <string name="question_delete_vehicle">Удалить транспортное средство?</string>
+    <string name="profile_edit">Редактировать профиль</string>
+    <string name="acceptOrderMessage">Заказ подтвержден</string>
+    <string name="cancelOrderMessage">Заказ отменен</string>
+    <string name="executedOrderMessage">Заказ Завершен</string>
+
+
+    <string name="error_email_not_set">Введите email</string>
+    <string name="error_unauthorized">Неавторизованно</string>
+    <string name="error_user_not_found">Пользователь или пароль введены не верно</string>
+    <string name="error_network">Отсутствует подключение к интернету</string>
+    <string name="error_network_retry">Повторить</string>
+    <string name="error">Ошибка</string>
+    <string name="err_not_valid_email">Введите корректный email</string>
+    <string name="err_not_valid_pass">Введите корректный пароль</string>
+    <string name="input_confirm_code">Введите код</string>
+    <string name="passwords_dont_match">Пароли не совпадают</string>
+    <string name="password_suc_changed">Пароль успешно изменен</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="only_latin_and_nums">Вводите только латинские буквы и цифры</string>
+    <string name="enter_valid_email">Введите корректный email</string>
+    <string name="enter_valid_phone_number">Введите корректный номер телефона</string>
+    <string name="input_all_data">Заполните все необходимые данные</string>
+    <string name="err_input_pass">Введите пароль</string>
+
+
+</resources>

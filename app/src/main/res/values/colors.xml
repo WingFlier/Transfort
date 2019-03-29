@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorCustomer">#d62b1f</color>
+    <color name="colorSuplier">#506073</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#d62b1f</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorLightBlue">#084563</color>
+    <color name="colorDarkBlue">#00283F</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorGray">#757575</color>
+    <color name="colorGrayLight">#C6C6C6</color>
+    <color name="colorGraySuperLight">#EEEEEE</color>
+
+
+    <color name="cl_000000">#000000</color>
+    <color name="cl_clear"> #00000000</color>
+
+    <color name="cl_ffffff">#ffffff</color>
+    <color name="cl_d8fbc0">#d8fbc0</color>
+    <color name="cl_fff1c2">#fff1c2</color>
+    <color name="cl_fff8e1">#fff8e1</color>
+    <color name="cl_6d6d6d">#6d6d6d</color>
+    <color name="cl_455a64">#455a64</color>
+    <color name="cl_eff5f9">#eff5f9</color>
+    <color name="cl_689eb8">#689eb8</color>
+    <color name="cl_fafafa">#fafafa</color>
+    <color name="cl_cccccc">#cccccc</color>
+
+    <color name="cl_506073">#506073</color>
+    <color name="cl_b0bec5">#b0bec5</color>
+
+    <color name="overlay_selected">#a3000000</color>
+    <color name="gray_button_capacity">#8fffffff</color>
+    <color name="white_button_capacity">#e0ffffff</color>
+    <color name="text_color_white_capacity">#7affffff</color>
+    <color name="text_color_white_transparent">#00ffffff</color>
+    <color name="line_color_white_capacity">#29ffffff</color>
+    <color name="lightish_red">#ff373f</color>
+    <color name="background_light_gray">#f5f7fa</color>
+    <color name="dark_grey_blue">#e02e3c4d</color>
+    <color name="gray_text_color">#b8506073</color>
+    <color name="slate_64">#a3506073</color>
+    <color name="slate_88">#e0506073</color>
+    <color name="slate">#506073</color>
+    <color name="dark_text_color_transparent">#7a506073</color>
+    <color name="dialog_title_color">#474f62</color>
+    <color name="dialog_text_color">#e1474f62</color>
+    <color name="white_color_opacity">#8affffff</color>
+    <color name="dark_text_color_hint">#99506073</color>
+    <color name="gray_color">#606060</color>
+    <color name="dark_grey_blue_88">#e02e3c4d</color>
+    <color name="charcoal_88">#e0454d46</color>
+    <color name="light_sage">#cef5d2</color>
+    <color name="light_khaki">#f5eece</color>
+    <color name="dark_grey_blue_56">#8f2e3c4d</color>
+</resources>

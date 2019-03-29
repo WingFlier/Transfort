@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlOrderItem"
+    android:background="@color/cl_ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvOrderNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="4sp"
+        android:layout_marginTop="24dp"
+        android:text="№ РТ-000465607"/>
+
+    <TextView
+        android:id="@+id/tvOrderStatus"
+        style="@style/TextViewStatusGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/tvOrderNum"
+        android:layout_toRightOf="@id/tvOrderNum"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Выбран исполнитель"/>
+
+    <ImageView
+        android:id="@+id/ivOrderMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_more" />
+
+    <TextView
+        android:id="@+id/tvOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOrderNum"
+        android:layout_alignLeft="@id/tvOrderNum"
+        android:layout_alignStart="@id/tvOrderNum"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#6d6d6d"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="от 21 июня"/>
+
+    <TextView
+        android:id="@+id/tvOrderCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/tvOrderDate"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="4sp"
+        android:text="Батайск"/>
+
+    <TextView
+        android:id="@+id/tvOrderRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:layout_below="@id/tvOrderCity"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#6d6d6d"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="Ростовская область"/>
+
+    <TextView
+        android:id="@+id/tvOrderVehicle"
+        android:layout_below="@id/tvOrderRegion"
+        style="@style/TextViewOrderItemGrey"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:drawableLeft="@drawable/ic_vehicle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Автопогрузчик"/>
+
+    <TextView
+        android:id="@+id/tvOrderCalendar"
+        android:layout_below="@id/tvOrderVehicle"
+        android:layout_marginLeft="8dp"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="8dp"
+        style="@style/TextViewOrderItemGrey"
+        android:drawableLeft="@drawable/ic_calendar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 августа, ПТ · 14:00"/>
+
+
+    <TextView
+        android:id="@+id/tvOrderClock"
+        style="@style/TextViewOrderItemGrey"
+        android:layout_below="@id/tvOrderCalendar"
+        android:layout_marginLeft="8dp"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_clock"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 часов"/>
+
+    <TextView
+        android:id="@+id/tvOrderRoute"
+        android:layout_below="@id/tvOrderClock"
+        style="@style/TextViewOrderItemGrey"
+        android:drawableLeft="@drawable/ic_route"
+        android:layout_marginLeft="8dp"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="280 км"/>
+
+    <TextView
+        android:id="@+id/tvOrderCost"
+        android:layout_below="@id/tvOrderRoute"
+        android:layout_marginLeft="8dp"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_cost"
+        style="@style/TextViewOrderItemGrey"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="41 р./км (50 717 р.)"/>
+
+    <RelativeLayout
+        android:id="@+id/rlOrderDetail"
+        android:background="@drawable/yellow_square_background"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/tvOrderCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvOrderDetailVehicle"
+            style="@style/TextViewOrderItemGrey"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="КАМАЗ 65208 · к 378 ет 152"/>
+
+        <TextView
+            android:id="@+id/tvOrderDetailLink"
+            android:layout_below="@id/tvOrderDetailVehicle"
+            style="@style/TextViewOrderDetailLink"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Карточка авто  ->"/>
+
+        <TextView
+            android:id="@+id/tvOrderStar"
+            android:layout_alignTop="@id/tvOrderDetailVehicle"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            style="@style/TextViewOrderItemGrey"
+            android:drawableLeft="@drawable/ic_star_rating"
+            android:drawablePadding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="3/5"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

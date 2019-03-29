@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/actFilter"
+        android:title="1"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/baseline_tune_24_px" />
+
+    <item android:id="@+id/actSort"
+        android:title="Сортировка"
+        android:icon="@drawable/ic_more_vert_white"
+        app:showAsAction="always"/>
+
+</menu>

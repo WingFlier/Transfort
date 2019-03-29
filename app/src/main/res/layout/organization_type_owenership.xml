@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:wd="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_type_owenership_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_type_owenership_title"
+            style="@style/LightDarkTextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/type_owenership"/>
+
+        <TextView
+            android:id="@+id/tv_type_owenership_star"
+            style="@style/RedTextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/star"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_type_owenership_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:entries="@array/type_type_owenership_array"
+            android:id="@+id/sp_type_ownership"
+            style="@style/SpinnerStyleOwenership"
+            android:layout_marginEnd="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:prompt="@string/type_owenership_hint"
+            android:spinnerMode="dropdown"
+            android:visibility="visible" />
+        
+    </LinearLayout>
+</LinearLayout>

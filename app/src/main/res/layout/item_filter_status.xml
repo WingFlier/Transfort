@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cbRD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выполнен"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbNW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создан"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбран исполнитель"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отменен"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbDP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Водитель прибыл"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbDW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Водитель в пути"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Талон заказчика не принят"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Талон заказчика принят"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:button="@drawable/checkbox_checked"
+        android:paddingStart="16dp"/>
+
+</LinearLayout>

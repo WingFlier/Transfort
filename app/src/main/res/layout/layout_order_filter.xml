@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wd="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <ru.wdsoft.ui.field.FieldText
+                android:id="@+id/fldNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Номер"
+                wd:efld_group="true"
+                wd:field_type="None"/>
+
+            <ru.wdsoft.ui.field.FieldOrderStateCheckList
+                android:id="@+id/fldState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Статус"
+                wd:efld_group="true"/>
+
+            <ru.wdsoft.ui.field.FieldOrderType
+                android:id="@+id/fldOrderType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Тип перевозки"
+                wd:efld_group="true"/>
+
+            <ru.wdsoft.ui.field.FieldVehicleType
+                android:id="@+id/fldVehicleType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Класс авто"
+                wd:efld_group="true"/>
+
+            <ru.wdsoft.ui.field.FieldText
+                android:id="@+id/fldAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Адрес подачи"
+                wd:efld_group="true"/>
+
+            <ru.wdsoft.ui.field.FieldDateTime
+                android:id="@+id/fldDateStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                wd:efld_group_name="Дата подачи"
+                wd:efld_group="true"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/cl_455a64"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBottomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:layout_centerVertical="true"
+            android:text="@string/findNOrders"
+            android:textColor="@color/cl_b0bec5"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/pbFilter"
+            android:indeterminate="true"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/tvBottomTitle"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/tvBottomShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:text="@string/showOrders"
+            android:textAllCaps="true"
+            android:textColor="@color/cl_ffffff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

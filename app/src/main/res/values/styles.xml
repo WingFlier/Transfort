@@ -1,0 +1,418 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionBarStyle">@style/R24.AppTheme.ActionBarStyle</item>
+        <item name="android:actionBarStyle">@style/R24.AppTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="R24.AppTheme.ActionBarStyle" parent="Widget.AppCompat.ActionBar">
+
+        <item name="background">@color/colorDarkBlue</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="android:titleTextStyle">@style/R24.ActionBar.Text</item>
+        <item name="titleTextStyle">@style/R24.ActionBar.Text</item>
+    </style>
+
+    <style name="R24.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="TextViewSmallGrey">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/cl_6d6d6d</item>
+    </style>
+
+    <style name="TextViewOrderItemGrey">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/cl_455a64</item>
+    </style>
+
+    <style name="TextViewOrderDetailLink">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/cl_689eb8</item>
+    </style>
+
+    <style name="TextViewMiddleBlack">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/cl_000000</item>
+    </style>
+
+    <style name="TextViewMiddleWhite">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/cl_ffffff</item>
+    </style>
+
+    <style name="TextViewBigBlack">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/cl_000000</item>
+    </style>
+
+    <style name="TextViewStatusGreen">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/cl_000000</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:paddingRight">@dimen/_10sdp</item>
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+        <item name="android:background">@drawable/green_label_background</item>
+    </style>
+
+    <style name="TextViewStatusYellow">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/cl_000000</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:paddingRight">@dimen/_10sdp</item>
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+        <item name="android:background">@drawable/yellow_label_background</item>
+    </style>
+
+    <style name="TextViewDate">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/cl_6d6d6d</item>
+    </style>
+
+    <style name="LinearLayoutOrderItem">
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+        <item name="android:layout_marginStart">@dimen/_21sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_21sdp</item>
+    </style>
+
+    <style name="CheckBoxOrderSort">
+        <item name="android:paddingLeft">@dimen/_10ssp</item>
+        <item name="android:paddingStart">@dimen/_10sdp</item>
+        <item name="android:button">@drawable/sort_checkbox_selector</item>
+    </style>
+
+
+    <style name="CardViewOrderSort" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="contentPaddingBottom">5dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingLeft">5dp</item>
+        <item name="contentPaddingRight">5dp</item>
+        <item name="cardBackgroundColor">@color/cl_ffffff</item>
+    </style>
+
+    <style name="NavigationView" >
+        <item name="android:listDivider">@color/cl_ffffff</item>
+        <item name="android:textColorSecondary">@color/cl_ffffff</item>
+    </style>
+
+
+    <style name="GrayText">
+        <item name="android:textColor">@color/gray_button_capacity</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_12sdp</item>
+    </style>
+
+
+    <style name="GrayTextBold">
+        <item name="android:textColor">@color/gray_button_capacity</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_12sdp</item>
+    </style>
+
+    <style name="RedText">
+        <item name="android:textColor">@color/lightish_red</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_12sdp</item>
+    </style>
+
+    <style name="WhiteText">
+        <item name="android:textColor">@color/white_button_capacity</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_12sdp</item>
+    </style>
+
+
+    <style name="LoginInputs">
+        <item name="android:textColor">@color/white_button_capacity</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColorHint">@color/text_color_white_capacity</item>
+        <item name="android:textCursorDrawable">@drawable/red_cursor</item>
+    </style>
+
+
+    <style name="DarkMediumText">
+        <item name="android:textColor">@color/dark_grey_blue</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_9ssp</item>
+    </style>
+
+    <style name="DarkBigText">
+        <item name="android:textColor">@color/dark_grey_blue</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_9sdp</item>
+    </style>
+
+    <style name="LightGreyBigText">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_9sdp</item>
+    </style>
+
+    <style name="LightGrayTextSmall">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/_11sdp</item>
+    </style>
+
+    <style name="LightInput">
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:textCursorDrawable">@drawable/dark_cursor</item>
+        <item name="android:background">@drawable/light_input_background</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:paddingLeft">@dimen/_16sdp</item>
+        <item name="android:paddingEnd">@dimen/_16sdp</item>
+        <item name="android:paddingRight">@dimen/_16sdp</item>
+    </style>
+
+    <style name="DisableInput">
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:textCursorDrawable">@drawable/dark_cursor</item>
+        <item name="android:background">@drawable/disable_input_background</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:paddingLeft">@dimen/_16sdp</item>
+        <item name="android:paddingEnd">@dimen/_16sdp</item>
+        <item name="android:paddingRight">@dimen/_16sdp</item>
+    </style>
+
+    <style name="LightInputAutocomplete">
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/slate_88</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:textCursorDrawable">@drawable/dark_cursor</item>
+        <item name="android:background">@drawable/light_input_background</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:paddingLeft">@dimen/_16sdp</item>
+        <item name="android:paddingEnd">@dimen/_16sdp</item>
+        <item name="android:paddingRight">@dimen/_16sdp</item>
+        <item name="android:popupBackground">@drawable/light_input_background</item>
+    </style>
+
+    <style name="BigRedButton">
+        <item name="android:background">@drawable/red_button_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_16sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:layout_marginRight">@dimen/_16sdp</item>
+        <item name="android:layout_marginTop">@dimen/_24sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_24sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <style name="MiddleRedButton">
+        <item name="android:background">@drawable/red_button_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_32sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_16sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:layout_marginRight">@dimen/_16sdp</item>
+        <item name="android:layout_marginTop">@dimen/_24sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <style name="SmallGreyButton">
+        <item name="android:background">@drawable/grey_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_32sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_24sdp</item>
+        <item name="android:layout_marginRight">@dimen/_24sdp</item>
+        <item name="android:layout_marginTop">@dimen/_24sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="SmallRedButton">
+        <item name="android:background">@drawable/red_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_32sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_24sdp</item>
+        <item name="android:layout_marginRight">@dimen/_24sdp</item>
+        <item name="android:layout_marginTop">@dimen/_24sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="ChooseButton">
+        <item name="android:background">@drawable/grey_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="TitleRegularLight">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/slate</item>
+    </style>
+
+    <style name="TitleRegularRed">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/lightish_red</item>
+    </style>
+
+
+    <style name="SpinnerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:layout_marginRight">@dimen/_16sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_16sdp</item>
+        <item name="android:background">@drawable/spinner_background_light</item>
+    </style>
+    <style name="SpinnerStyleOwenership">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_60sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:layout_marginRight">@dimen/_16sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_16sdp</item>
+        <item name="android:background">@drawable/spinner_background_light</item>
+    </style>
+
+
+    <style name="TextViewEditStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:paddingLeft">@dimen/_16sdp</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">@drawable/textview_background_light</item>
+    </style>
+
+    <style name="TextViewSpinnerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_42sdp</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/dark_text_color_transparent</item>
+        <item name="android:paddingStart">@dimen/_16ssp</item>
+        <item name="android:paddingLeft">@dimen/_16ssp</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">@drawable/spinner_background_light</item>
+    </style>
+
+    <style name="SelectVehicleNormalText">
+        <item name="android:textColor">@color/dark_grey_blue_88</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_average</item>
+    </style>
+    <style name="SelectVehicleSmallText">
+        <item name="android:textColor">@color/dark_grey_blue_88</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_average</item>
+    </style>
+
+    <style name="SelectVehicleBoldText">
+        <item name="android:textColor">@color/dark_grey_blue_88</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/slate_64</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_average</item>
+    </style>
+
+    <style name="LightGrayTextTiny">
+        <item name="android:textColor">@color/charcoal_88</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="LightGrayTextTinyBold">
+        <item name="android:textColor">@color/charcoal_88</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_normal_plus</item>
+    </style>
+
+    <style name="LightDarkTextNormal">
+        <item name="android:textColor">@color/dark_grey_blue_88</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_tiny</item>
+    </style>
+
+    <style name="RedTextNormal">
+        <item name="android:textColor">@color/lightish_red</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_tiny</item>
+    </style>
+
+    <style name="LightGrayTextNormal">
+        <item name="android:textColor">@color/dark_grey_blue_56</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_tiny</item>
+    </style>
+
+    <style name="TextNormal">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_tiny</item>
+    </style>
+
+    <style name="LightGrayTextBig">
+        <item name="android:textColor">@color/dark_grey_blue_88</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_minimum</item>
+    </style>
+
+    <style name="TextBig">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_minimum</item>
+    </style>
+
+    <style name="LightGrayTextComment">
+        <item name="android:textColor">@color/dark_grey_blue_56</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:lineSpacingExtra">@dimen/text_lineSpacing_small</item>
+    </style>
+
+    <style name="ProgressBar">
+        <item name="android:scaleX">1.2</item>
+        <item name="android:scaleY">1.2</item>
+    </style>
+
+</resources>

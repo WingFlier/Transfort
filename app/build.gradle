@@ -1,0 +1,204 @@
+def getDate() {
+    new Date().format('dd.MM.YYYY')
+}
+
+buildscript {
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "ru.wdsoft.transfort"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "2.0"
+
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    def apkName = "ru.transfort-" + defaultConfig.versionName + "." + defaultConfig.versionCode + "-" + getDate() + ".apk"
+                    outputFileName = new File(apkName)
+                }
+            }
+
+        }
+
+//        debug {
+//            android.applicationVariants.all { variant ->
+//                variant.outputs.all {
+//                    def apkName = "ru.rt24v2.debug-" + defaultConfig.versionName + "." + defaultConfig.versionCode + "-" + getDate() + ".apk"
+//                    outputFileName = new File(apkName)
+//                }
+//            }
+//        }
+
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+
+ext.multisize_version = "1.0.5"
+ext.cardview_version = "28.0.0"
+ext.butterknife_version = "8.8.1"
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.9.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.android.support:design:28.0.0'
+
+    //multi size dimens
+    implementation "com.intuit.sdp:sdp-android:$multisize_version"
+    implementation "com.intuit.ssp:ssp-android:$multisize_version"
+
+    //cardView
+    implementation "com.android.support:cardview-v7:$cardview_version"
+
+    //butterknife
+    implementation "com.jakewharton:butterknife:$butterknife_version"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife_version"
+    testImplementation 'junit:junit:4.12'
+
+    //multi size dimens
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    implementation 'com.intuit.ssp:ssp-android:1.0.5'
+
+    implementation 'com.snatik:storage:2.1.0'
+
+    //material-spinner
+    implementation 'com.github.ganfra:material-spinner:2.0.0'
+
+    //multidex
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'com.wang.avi:library:2.1.3'
+
+    // Библиотека Appmetrica SDK.
+    implementation 'com.yandex.android:mobmetricalib:3.2.2'
+    // Опционально. Библиотека Play Install Referrer.
+    implementation 'com.android.installreferrer:installreferrer:1.0'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+//    implementation 'com.pusher:push-notifications-android:0.10.0'
+
+    //com.google.android.gms
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.0.1'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:3.0.1'
+
+
+
+
+    implementation 'com.googlecode.libphonenumber:libphonenumber:7.2.2'
+
+    //maskEdit
+    implementation 'com.redmadrobot:inputmask:3.4.4'
+
+    implementation 'ru.egslava:MaskedEditText:1.0.5'
+
+    //switch button(like ios)
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+
+    //annotation
+    implementation 'com.android.support:support-annotations:28.0.0'
+
+    //crashlytics
+    implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true;
+    }
+
+    //calligraphy
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+
+    //timber
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+
+    //eventbus
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+    //rxjava2
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex:rxjava-async-util:0.21.0'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.1.0'
+
+    //RxBinding
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.1.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.0'
+
+    //android.arch.lifecycle
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation "android.arch.lifecycle:viewmodel:1.1.1"
+
+    //rxlifecycle
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-android:2.2.1'
+
+    //picasso
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //retrofit2
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    //WordUnits
+    implementation 'org.apache.commons:commons-lang3:3.7'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
+
+
+}

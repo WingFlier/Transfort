@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="field_type">
+        <enum name="None" value="0" />
+        <enum name="Date" value="1" />
+        <enum name="Time" value="2" />
+        <enum name="Ref" value="3" />
+        <enum name="Int" value="4" />
+        <enum name="ReadOnly" value="5" />
+        <enum name="CheckBox" value="6" />
+        <enum name="List" value="7" />
+        <enum name="DateTime" value="8" />
+        <enum name="Time150" value="9" />
+        <enum name="Phone" value="10" />
+        <enum name="Money" value="11" />
+        <enum name="CheckList" value="12" />
+    </attr>
+
+    <attr name="caption_orientation">
+        <enum name="Horizontal" value="0" />
+        <enum name="Vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="DataField">
+
+        <attr name="field_hint" format="string"/>
+        <attr name="obligatory" format="boolean"/>
+        <attr name="caption" format="string"/>
+        <attr name="caption_orientation"/>
+        <attr name="field_icon" format="reference"/>
+        <attr name="field_icon_bg" format="reference"/>
+        <attr name="field_type"/>
+        <attr name="text_size" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="EditDataField">
+
+        <attr name="efld_group_name" format="string"/>
+        <attr name="efld_group" format="boolean"/>
+        <attr name="efld_hint" format="string"/>
+        <attr name="efld_caption" format="string"/>
+        <attr name="efld_right_icon" format="reference"/>
+        <attr name="efld_left_icon" format="reference"/>
+        <attr name="field_type"/>
+        <attr name="efld_obligatory" format="boolean"/>
+        <attr name="efld_text_size" format="dimension"/>
+
+    </declare-styleable>
+
+
+</resources>

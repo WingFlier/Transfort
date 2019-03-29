@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actEditOrder"
+        android:title="Редактировать" />
+    <item
+        android:id="@+id/actRepeatOrder"
+        android:title="Повторить заказ"/>
+    <item
+        android:id="@+id/actCopyText"
+        android:title="Скопировать текст"/>
+
+    <item
+        android:id="@+id/actDeleteOrder"
+        android:title="Удалить"/>
+</menu>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    style="@style/CardViewOrderSort"
+    android:id="@+id/cvOrderSort"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rlOrderSort"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            style="@style/TextViewBigBlack"
+            android:id="@+id/tvOrderSortTitle"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:text="@string/ordering" />
+
+        <View
+            android:background="@color/cl_eff5f9"
+            android:id="@+id/vOrderSortLine"
+            android:layout_below="@id/tvOrderSortTitle"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent" />
+
+
+        <LinearLayout
+            android:id="@+id/llOrderSortPlacing"
+            android:layout_below="@id/vOrderSortLine"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewMiddleBlack"
+                android:id="@+id/tvOrderSortByDate"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/by_date_placing" />
+
+            <CheckBox
+                style="@style/CheckBoxOrderSort"
+                android:id="@+id/cbOrderSortNewToOld"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:text="@string/new_to_old" />
+
+            <CheckBox
+                style="@style/CheckBoxOrderSort"
+                android:id="@+id/cbOrderSortOldToNew"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:text="@string/old_to_new" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llOrderSortFeeding"
+            android:layout_below="@id/llOrderSortPlacing"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewMiddleBlack"
+                android:id="@+id/tvOrderSortByDateFeeding"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/by_date_feeding" />
+
+            <CheckBox
+                style="@style/CheckBoxOrderSort"
+                android:id="@+id/cbOrderSortQuickNotQuick"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:text="@string/quick_notquick" />
+
+            <CheckBox
+                style="@style/CheckBoxOrderSort"
+                android:id="@+id/cbOrderSortQuickNotQuickQuick"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:text="@string/notquick_quick" />
+        </LinearLayout>
+
+        <View
+            android:background="@color/cl_eff5f9"
+            android:id="@+id/vOrderSortBottomLine"
+            android:layout_below="@id/llOrderSortFeeding"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent" />
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/vOrderSortBottomLine"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/cl_clear"
+                android:id="@+id/btnOrderSortCancel"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/order_cancel"
+                android:textColor="@color/cl_689eb8" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/cl_clear"
+                android:id="@+id/btnOrderSortOk"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/Ok"
+                android:textColor="@color/cl_689eb8" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cl_506073"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/ivHeaderLogo"
+        android:layout_width="@dimen/_64sdp"
+        android:layout_height="@dimen/_64sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/user_avatar"/>
+
+    <TextView
+        android:id="@+id/tvHeaderTitle"
+        android:layout_toRightOf="@id/ivHeaderLogo"
+        android:layout_toEndOf="@id/ivHeaderLogo"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewMiddleWhite"
+        android:text="@string/test_fio"/>
+
+    <TextView
+        android:id="@+id/tvHeaderStatus"
+        android:layout_toRightOf="@id/ivHeaderLogo"
+        android:layout_below="@id/tvHeaderTitle"
+        android:layout_toEndOf="@id/ivHeaderLogo"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewMiddleWhite"
+        android:text="@string/performer"/>
+
+    <Button
+        android:id="@+id/btnHeaderSwitch"
+        android:background="@drawable/ic_change_role"
+        android:layout_alignTop="@id/tvHeaderStatus"
+        android:layout_toRightOf="@id/tvHeaderStatus"
+        android:layout_toEndOf="@id/tvHeaderStatus"
+        android:padding="16dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_12sdp"
+        android:layout_height="@dimen/_12sdp" />
+
+</RelativeLayout>
